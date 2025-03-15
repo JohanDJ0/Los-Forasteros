@@ -62,7 +62,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToSection }) => {
     <nav className="fixed w-full z-50 bg-black bg-opacity-50 backdrop-blur-sm">
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <img
-          src="https://res.cloudinary.com/dxh55fgry/image/upload/v1740869888/logoForasteros_zqh8j6.png"
+          src="https://res.cloudinary.com/dxh55fgry/image/upload/v1740871174/318185153_2989802217821872_6505604956770001485_n-Photoroom_jtua1i.png"
           alt="Los Forasteros Logo"
           className="h-8 w-auto sm:h-12 md:h-16 lg:h-20 object-contain"
           onError={(e) => {
