@@ -64,7 +64,7 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToSection }) => {
         <img
           src="https://res.cloudinary.com/dxh55fgry/image/upload/v1740869888/logoForasteros_zqh8j6.png"
           alt="Los Forasteros Logo"
-          className="h-12 md:h-16 lg:h-20 object-contain"
+          className="h-8 w-auto sm:h-12 md:h-16 lg:h-20 object-contain"
         />
         
         {/* Menú de escritorio */}
