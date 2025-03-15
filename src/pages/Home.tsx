@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { FaFacebookF, FaInstagram, FaYoutube, FaSpotify } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
 import VideoSection from "../components/VideoSection";
 import { useLocation } from "react-router-dom"; // Importa useLocation
 
@@ -141,15 +141,6 @@ const Home = () => {
             <div className="flex justify-center space-x-6">
               <a href="https://www.facebook.com/sinoe.dejesusmerced.9" className="transform hover:scale-110 transition-transform p-4 bg-[#1a1a1a] rounded-full hover:bg-[#FFD700] group">
                 <FaFacebookF className="text-2xl text-[#FFD700] group-hover:text-black" />
-              </a>
-              <a href="#" className="transform hover:scale-110 transition-transform p-4 bg-[#1a1a1a] rounded-full hover:bg-[#FFD700] group">
-                <FaInstagram className="text-2xl text-[#FFD700] group-hover:text-black" />
-              </a>
-              <a href="#" className="transform hover:scale-110 transition-transform p-4 bg-[#1a1a1a] rounded-full hover:bg-[#FFD700] group">
-                <FaYoutube className="text-2xl text-[#FFD700] group-hover:text-black" />
-              </a>
-              <a href="#" className="transform hover:scale-110 transition-transform p-4 bg-[#1a1a1a] rounded-full hover:bg-[#FFD700] group">
-                <FaSpotify className="text-2xl text-[#FFD700] group-hover:text-black" />
               </a>
             </div>
           </div>
