@@ -65,6 +65,11 @@ const Navbar: React.FC<NavbarProps> = ({ scrollToSection }) => {
           src="https://res.cloudinary.com/dxh55fgry/image/upload/v1740869888/logoForasteros_zqh8j6.png"
           alt="Los Forasteros Logo"
           className="h-8 w-auto sm:h-12 md:h-16 lg:h-20 object-contain"
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = "/Forasteros.ico"; // Usar el icono como respaldo
+            target.onerror = null; // Prevenir bucle infinito
+          }}
         />
         
         {/* Menú de escritorio */}
